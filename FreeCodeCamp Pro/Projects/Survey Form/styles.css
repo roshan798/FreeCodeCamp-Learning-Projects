@@ -1,0 +1,119 @@
+     body {
+            color: rgb(245, 252, 144);
+            font-family: 'Ubuntu', sans-serif;
+            background-image: linear-gradient( 115deg, rgba(58, 58, 117, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+        }
+        
+        h1 {
+            font-family: 'Rubik Microbe', cursive, sans-serif;
+            max-width: 500px;
+            margin: 20px auto 10px;
+        }
+        
+        h3 {
+            font-style: italic;
+            color: black;
+            max-width: 350px;
+            margin: 5px auto 20px;
+        }
+        
+        div.form {
+            margin: 0px;
+            max-width: 650px;
+            margin: auto;
+            width: 100%;
+            min-height: 100%;
+            background-color: #010102bd;
+            border-radius: 4px;
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        
+         ::placeholder,
+        option {
+            font-size: 1.2em;
+            color: rgb(12, 13, 14);
+            font-weight: 1100;
+            font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        
+        label {
+            display: block;
+            margin: 15px 0;
+        }
+        
+        option {
+            background-color: #A4BE7B;
+        
+        border: hidden;
+        border-color: green;
+        
+        border-width: 3px;
+    }
+    .input-box,
+    select,
+    textarea,
+    button {
+        box-sizing: border-box;
+        display: block;
+        
+        height: 2.85em;
+        width: 100%;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 12px;
+        border: hidden;
+        border-radius: 4px;
+        padding: 0.375rem 0.75rem;
+        background-color: #d1d1d1;
+    }
+    .input-box,
+    select,
+    textarea,
+    button::before {
+        opacity: 0.6;
+        font-size: 1em;
+    }
+    .input-box,
+    select,
+    textarea,
+    button :on hover {
+        opacity: 0.6;
+    }
+    textarea {
+        padding: 0.375rem 0.75rem;
+        height: 100px;
+    }
+    .submit-button {
+        background-color: #00FFD1;
+        color: rgb(242, 250, 248);
+        font-weight: bold;
+        padding: 2px;
+        
+        font-size: 1em;
+    }
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+    }
+    .button1 {
+        background-color: rgb(83, 117, 86);
+        color: black;
+        border: 2px solid #4CAF50;
+    }
+    .button1:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+    option {
+        background-color: #4CAF50;
+    }
+    .select-box:hover {
+        background-color: rgba(142, 223, 255, 0.747);
+        color: rgb(255, 255, 255);
+    }
+    
